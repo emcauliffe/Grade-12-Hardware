@@ -1,0 +1,53 @@
+.def	times = r24
+
+.def	temp  = r25
+
+.equ	BYTE  = 0xF3
+
+.def	three = r23
+
+.def	threeO = r22
+
+
+.org 0x00
+
+rjmp reset
+
+
+
+reset:
+
+ldi r16, 0xFF
+out 0x05, r16
+out 0x08, r16
+ldi r16, BYTE
+ldi times, 8
+ldi three, 0x03
+ldi	threeO, 0x30
+clr r17
+clr r18
+
+
+
+repete:
+   rol r16
+   rol r17
+   rol r18
+   dec times
+   breq disp
+
+   mov temp, r17
+   andi temp, 0x0F
+   cpi temp, 0x05			;cpi a,b: a-b...temp-0x05
+   brlo tens
+   add r17,three
+tens:
+   cpi temp, 0x50			;cpi a,b: a-b...temp-0x05
+   brlo hund
+   add r17,threeO
+   hund:
+    andi temp, 0x0F
+   cpi temp, 0x05			;cpi a,b: a-b...temp-0x05
+   brlo repete
+   add r18, three
+   rjmp repete

@@ -1,0 +1,38 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m328pdef.inc</FILE>
+  <FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\prescalers.h</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\Debug\DCfan.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>DCfan.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>DCfan.map</FILE>
+  <FILE>DCfan.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <RPMStart><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>17</LINE></RPMStart>
+  <RPMEnd><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>19</LINE></RPMEnd>
+  <reset><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>31</LINE></reset>
+  <TIM0_OVF><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>91</LINE></TIM0_OVF>
+  <ADC_Complete><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>94</LINE></ADC_Complete>
+  <RPMInit><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>44</LINE></RPMInit>
+  <PWMInit><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>52</LINE></PWMInit>
+  <ADCInit><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>65</LINE></ADCInit>
+  <TM0Init><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>82</LINE></TM0Init>
+  <wait><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>41</LINE></wait>
+  <dummy><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\DCfan\DCfan\main.asm</FILE><LINE>75</LINE></dummy>
+ </LABELS>
+</ASSEMBLER_INFO>

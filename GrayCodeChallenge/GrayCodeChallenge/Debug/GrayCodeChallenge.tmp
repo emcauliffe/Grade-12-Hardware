@@ -1,0 +1,37 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\Debug\GrayCodeChallenge.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>GrayCodeChallenge.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>GrayCodeChallenge.map</FILE>
+  <FILE>GrayCodeChallenge.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <reset><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>23</LINE></reset>
+  <grayStart><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>20</LINE></grayStart>
+  <grayEnd><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>22</LINE></grayEnd>
+  <collect><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>41</LINE></collect>
+  <convert><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>51</LINE></convert>
+  <loop><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>59</LINE></loop>
+  <pov><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>82</LINE></pov>
+  <tens><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>71</LINE></tens>
+  <hundreds><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>75</LINE></hundreds>
+  <delay><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>101</LINE></delay>
+  <L1><FILE>B:\Documents\Google Drive\Documents\Grade 12\Hardware\Assembly\GrayCodeChallenge\GrayCodeChallenge\main.asm</FILE><LINE>110</LINE></L1>
+ </LABELS>
+</ASSEMBLER_INFO>

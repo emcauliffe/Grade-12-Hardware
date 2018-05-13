@@ -1,0 +1,30 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.7</VERSION>
+ <DEVICE>"ATmega328P"</DEVICE>
+ <WORKING_DIR>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\TestingAGlobalVariable\TestingAGlobalVariable\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\TestingAGlobalVariable\TestingAGlobalVariable\main.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.2.150\avrasm\inc\m328pdef.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\TestingAGlobalVariable\TestingAGlobalVariable\Debug\TestingAGlobalVariable.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>TestingAGlobalVariable.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>TestingAGlobalVariable.map</FILE>
+  <FILE>TestingAGlobalVariable.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <isNot><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\TestingAGlobalVariable\TestingAGlobalVariable\main.asm</FILE><LINE>29</LINE></isNot>
+  <green><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\TestingAGlobalVariable\TestingAGlobalVariable\main.asm</FILE><LINE>33</LINE></green>
+  <wait><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\TestingAGlobalVariable\TestingAGlobalVariable\main.asm</FILE><LINE>43</LINE></wait>
+  <red><FILE>C:\Users\Ethan McAuliffe\Google Drive\Documents\Grade 12\Hardware\Assembly\TestingAGlobalVariable\TestingAGlobalVariable\main.asm</FILE><LINE>38</LINE></red>
+ </LABELS>
+</ASSEMBLER_INFO>
